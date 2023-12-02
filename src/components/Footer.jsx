@@ -16,7 +16,7 @@ const Footer = () => {
         <a href="https://t.me/NAMANGANLIKLAR" className='p-1 bg-white inline-block rounded-md'>
               <div className='flex p-1 bg-white text-blue-900 '>
                 <img src={Telegram} className='w-6' alt="" />
-                Obuna Bo'lish
+                Kanalga obuna bo'ling
               </div>
             </a>
       </div>
