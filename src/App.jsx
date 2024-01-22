@@ -5,30 +5,37 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 // pages
 import Home from './pages/Home'
 import MainLayout from './layouts/MainLayout'
-import Ozbekiston from './pages/Ozbekiston'
 import Dunyo from './pages/Dunyo'
-import Siyosat from './pages/Siyosat'
-import ShouBiznes from './pages/ShouBiznes'
 import Iqtisodiyot from './pages/Iqtisodiyot'
 import Sport from './pages/Sport'
 import Texnologiyalar from './pages/Texnologiyalar'
-import Namangan from './pages/Namangan'
-import Sayt from './pages/Sayt'
+import Birja from './pages/Birja'
+import Asosiy from './pages/Asosiy'
+import Post from './pages/Post'
+import Kop from './pages/Kop'
+import Contact from './pages/Contact'
+import Madaniyat from './pages/Madaniyat'
+import Xatolar from './pages/Xatolar'
+import Molia from './pages/Molia'
 
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
   <Route element={<MainLayout/>}>
       <Route index element={<Home/>} />
-      <Route path='/Ozbekiston' element={<Ozbekiston/>}/>
+      <Route path='/Asosiy' element={<Asosiy/>}/>
       <Route path='/Dunyo' element={<Dunyo/>}/>
-      <Route path='/Siyosat' element={<Siyosat/>}/>
-      <Route path='/Namangan' element={<Namangan/>}/>
-      <Route path='/Shou Biznes' element={<ShouBiznes/>}/>
+      <Route path='/Molia' element={<Molia/>}/>
+      <Route path='/Birja' element={<Birja/>}/>
+      <Route path='/Madaniyat' element={<Madaniyat/>}/>
+
       <Route path='/Iqtisodiyot' element={<Iqtisodiyot/>}/>
       <Route path='/Sport' element={<Sport/>}/>
       <Route path='/Texnologiyalar' element={<Texnologiyalar/>}/>
-      <Route path='/Sayt Haqida' element={<Sayt/>}/>
+      <Route path='/Post/:id' element={<Post/>}/>
+      <Route path='/Kop' element={<Kop/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
+      <Route path='*' element={<Xatolar/>}/>
   </Route>
     )
   )
