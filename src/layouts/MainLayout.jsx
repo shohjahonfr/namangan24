@@ -14,7 +14,6 @@ const MainLayout = () => {
       <main className=' w-full max-w-[1480px] mx-auto px-5 grow font-bold text-2xl'>
         <Outlet />
       </main>
-
       <Footer />
     </div>
   )
