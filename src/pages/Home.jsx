@@ -96,7 +96,7 @@ const Asosiy = () => {
                 })
               }
               <div className="items-center mx-auto ">
-              <NavLink className="text-center  bg-blue-600 rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
+              <NavLink className="text-center  bg-blue-600 rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-black  text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
               </div>
             </div>
           </div>
