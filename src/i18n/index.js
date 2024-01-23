@@ -46,6 +46,8 @@ i18n
                     tarmoqlar:`Ijtimoiy tarmoqlar`,
                     tkanal2:`Telegram kanal`,
                     ismi:`ismi`,
+                    sahifa:`Bunday sahifa topilmadi`,
+                    homga2:`Bosh sahifaga qaytish`,
                     // footer
                     bizni: `Bizning telegram kanalimizga obuna bo’lib eng so’nggi yangiliklardan xabardor bo’ling:`,
                     huquq: `Foydalanish huquqlari`,
@@ -411,6 +413,8 @@ i18n
                     tkanal: `Наш Telegram-канал`,
                     ykanal: ` Наш канал на YouTube`,
                     foydalanish: `Копирование, распространение и иные формы использования материалов, размещенных на сайте «NAMANGANLIKLAR24.UZ», могут осуществляться только с письменного согласия редакции.`,
+                    sahifa:`Такая страница не найдена`,
+                    homga2:`Вернуться на главную страницу`,
                     // asosiy
                     // 1
                     new_card_title_1: `В Намангане в результате ДТП погиб водитель автомобиля "103"`,

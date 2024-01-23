@@ -65,9 +65,9 @@ const Header = () => {
             <div className="sm:flex items-center gap-7">
               <div className="mt-5 lg:mt-0">
                 <div className='flex items-center gap-5 w-full '>
-                  <select id="languageSelect" className="py-1 px-2 bg-white text-gray-800 rounded outline-none" value={selectedLanguage} onChange={(e) => changeLanguage(e.target.value)}>
+                  <select id="languageSelect" className="py-1 px-2   bg-white text-gray-800 rounded outline-none" value={selectedLanguage} onChange={(e) => changeLanguage(e.target.value)}>
                     {languages.map((lang) => (
-                      <option key={lang.code} value={lang.code} className="bg-gray-800 text-white">
+                      <option key={lang.code} value={lang.code} className="bg-gray-800 text-white p-1">
                         {lang.name}
                       </option>
                     ))}

@@ -128,7 +128,7 @@ const Asosiy = () => {
           </div>
           <div className=" ">
           <a href="https://domtut.uz/nedvizhimost/zhiloj-kompleks-olmos-residence"target="_blank">
-          <img className="mt-5 w-full" src={rasm} alt="" />
+          <img className="mt-5 w-full" src={rasm} alt="olmosresidence" />
           </a>
           </div>
         </div>

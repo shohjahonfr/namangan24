@@ -101,17 +101,18 @@ const Asosiy = () => {
             </div>
           </div>
         </div>
-
         <div className="lg:block hidden">
-        <div className="flex flex-col gap-6 ">
-          <h2 className=" text-2xl">{t("ommabop")}</h2>
-          {
-            main.slice(30, 40).map((e) => {
-              return (
-                <div className='  max-w-3xl bg-slate-200 rounded-md '>
-
-                  <div className="p-5">
-                      <Link className="block mb-5" to={`/post/${e.id}`}>
+          <div className="flex flex-col gap-6">
+            <h2 className="text-2xl">{t("ommabop")}</h2>
+            {
+              main.slice(30, 40).map((e) => {
+                return (
+                  <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                    <div className="p-5" >
+                      <Link className="inline-block  " to={`/post/${e.id}`}>
+                        <img className="  rounded-md inline-block max-w-[250px]" src={e.img} alt="" />
+                      </Link>
+                      <Link className="block " to={`/post/${e.id}`}>
                         <p className='text-lg text-start hover:text-blue-900'>{t(e.title)}</p>
                       </Link>
                       <Link to={`/post/${e.id}`}>
@@ -124,10 +125,10 @@ const Asosiy = () => {
               })
             }
           </div>
-          <div className="flex items-center text-center justify-center mt-5">
-          <a href="https://domtut.uz/nedvizhimost/zhiloj-kompleks-olmos-residence">
-          <img className="mt-5" src={rasm} alt="" />
-          </a>
+          <div className=" ">
+            <a href="https://domtut.uz/nedvizhimost/zhiloj-kompleks-olmos-residence" target="_blank">
+              <img className="mt-5 w-full" src={rasm} alt="olmosresidence" />
+            </a>
           </div>
         </div>
       </div>
