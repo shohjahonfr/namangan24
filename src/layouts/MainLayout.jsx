@@ -9,7 +9,7 @@ const MainLayout = () => {
     <div className='flex flex-col   min-h-screen'>
       <Header />
       <a href="https://pc.uz/company/123924-shopme-uz"target="_blank">
-      <img src={Reklama} className='w-full max-w-[1480px] mx-auto px-5 mb-10 mt-5 h-20 sm:h-32' alt="" />
+      <img src={Reklama} className='w-full max-w-[1480px] mx-auto px-5 mb-10 mt-5 h-20 sm:h-32' alt="Reklama" />
       </a>
       <main className=' w-full max-w-[1480px] mx-auto px-5 grow font-bold text-2xl'>
         <Outlet />
