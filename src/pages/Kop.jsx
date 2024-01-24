@@ -35,7 +35,7 @@ const Kop = () => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className='flex '>
+    <div className='flex gap-4'>
       <div className='w-full max-w-7xl'>
         <div>
           <div className="flex flex-col gap-5">
@@ -43,7 +43,7 @@ const Kop = () => {
             {
               main.slice(10, 20).map((e) => {
                 return (
-                  <div className='flex bg-slate-200 rounded-md mr-4  text-lg  sm:text-sm' key={e.id}>
+                  <div className='flex bg-slate-200 rounded-md   text-lg  sm:text-sm' key={e.id}>
                     <div className="sm:flex ">
                       <Link className="inline-block p-5 sm:p-5 " to={`/post/${e.id}`}>
                         <img className=" max-w-full rounded-md inline-block md:max-w-[350px] sm:max-w-[300px]  " src={e.img} alt="" />
