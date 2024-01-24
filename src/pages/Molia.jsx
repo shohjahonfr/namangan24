@@ -37,9 +37,9 @@ const Molia = () => {
       <div className='w-full max-w-7xl'>
         <div>
           <div className="flex flex-col gap-3 ">
-            <h3 className="underline-offset-8 underline text-3xl my-4 ">{t("dunyo")}</h3>
+            <h3 className="underline-offset-8 underline text-3xl my-4 ">{t("moliya")}</h3>
             {
-              main.slice(0, 10).map((e) => {
+              main.slice(40, 50).map((e) => {
                 return (
                   <div className='flex bg-slate-200 rounded-md   text-lg  sm:text-sm' key={e.id}>
                     <div className="sm:flex w-full ">
@@ -72,7 +72,7 @@ const Molia = () => {
           {
             main.slice(30, 40).map((e) => {
               return (
-                <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                   <div className="p-5" >
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                       <img className="  rounded-md inline-block   w-48 h-32" src={e.img} alt="" />

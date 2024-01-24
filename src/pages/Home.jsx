@@ -42,7 +42,7 @@ const Asosiy = () => {
         {
           main.slice(0, 6).map((e) => {
             return (
-              <li className='p-4 bg-neutral-200 rounded-xl '>
+              <li key={e.id} className='p-4 bg-neutral-200 rounded-xl '>
                 <Link to={`/post/${e.id}`}>
                   <img className='h-44 w-full rounded-md sm:h-64' src={e.img} alt="" />
                 </Link>
@@ -95,7 +95,7 @@ const Asosiy = () => {
                 })
               }
               <div className="items-center mx-auto ">
-              <NavLink className="text-center  bg-blue-600 rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
+              <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Asosiy = () => {
             {
               main.slice(30, 40).map((e) => {
                 return (
-                  <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                  <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                     <div className="p-5" >
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                         <img className="  rounded-md inline-block  w-48 h-32" src={e.img} alt="" />

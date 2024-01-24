@@ -42,9 +42,9 @@ const Asosiy = () => {
         {
           main.slice(0, 6).map((e) => {
             return (
-              <li className='p-4 bg-zinc-200 rounded-xl '>
+              <div key={e.id} className='p-4 bg-zinc-200 rounded-xl '>
                 <Link to={`/post/${e.id}`}>
-                  <img className='h-44 w-full rounded-md sm:h-64' src={e.img} alt="" />
+                  <img className='h-44 w-full rounded-md sm:h-64' src={e.img} alt="rasm" />
                 </Link>
                 <Link to={`/post/${e.id}`}>
                   <p className='text-sm my-5 sm:text-lg'>{t(e.title)}</p>
@@ -52,7 +52,7 @@ const Asosiy = () => {
                 <Link to={`/post/${e.id}`}>
                   <p className='text-sm text-slate-700  '>{e.date}</p>
                 </Link>
-              </li>
+              </div>
             )
           })
         }
@@ -107,7 +107,7 @@ const Asosiy = () => {
             {
               main.slice(30, 40).map((e) => {
                 return (
-                  <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                  <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                     <div className="p-5" >
                       <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                         <img className="  rounded-md inline-block  w-48 h-32" src={e.img} alt="" />

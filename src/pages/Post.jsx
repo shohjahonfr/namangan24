@@ -42,11 +42,11 @@ const Post = () => {
   return (
     <div className="flex gap-5">
 
-      <div className="max-w-4xl ">
-        <h2 className=" text-lg lg:text-2xl w-full max-w-2xl  md:max-w-4xl">{t(data.title)}</h2>
-        <p className=" text-sm lg:text-lg my-2 w-full max-w-2xl  md:max-w-4xl">{data.date}</p>
-        <img className="w-full max-w-2xl rounded-lg my-3 md:max-w-4xl" src={data.img} alt="" />
-        <p className="lg:text-xl text-base font-normal my-3 w-full max-w-2xl  md:max-w-4xl">{t(data.content)}</p>
+      <div className="max-w-5xl w-full ">
+        <h2 className=" text-lg lg:text-2xl w-full max-w-2xl  md:max-w-5xl">{t(data.title)}</h2>
+        <p className=" text-sm lg:text-lg my-2 w-full max-w-2xl  md:max-w-5xl">{data.date}</p>
+        <img className="w-full max-w-2xl rounded-lg my-3 md:max-w-5xl" src={data.img} alt="" />
+        <p className="lg:text-xl text-base font-normal my-3 w-full max-w-2xl  md:max-w-5xl">{t(data.content)}</p>
       </div>
       
       <div className="lg:block hidden">

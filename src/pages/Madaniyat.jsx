@@ -72,7 +72,7 @@ const Madaniyat = () => {
           {
             main.slice(30, 40).map((e) => {
               return (
-                <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                   <div className="p-5" >
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                       <img className="  rounded-md inline-block  w-48 h-32" src={e.img} alt="" />
