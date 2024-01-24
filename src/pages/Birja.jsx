@@ -75,7 +75,7 @@ const Birja = () => {
                 <div className='  max-w-2xl bg-slate-200 rounded-md '>
                   <div className="p-5" >
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
-                      <img className="  rounded-md inline-block max-w-[250px] w-48 h-32" src={e.img} alt="" />
+                      <img className="  rounded-md inline-block   w-48 h-32" src={e.img} alt="" />
                     </Link>
                     <Link className="block " to={`/post/${e.id}`}>
                       <p className='text-lg text-start hover:text-blue-900'>{t(e.title)}</p>
