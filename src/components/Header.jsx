@@ -86,79 +86,84 @@ const Header = () => {
         <div className='w-full max-w-[1480px] mx-auto px-5  drop-shadow-xl '>
           <div className="lg:block hidden">
             <ul className='py-6 mt-5 text-[#7F7F7F] text-xl bg-white rounded-md  px-8 font-semibold flex justify-between items-center'>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600 " to="/">{t("asosiy")}</NavLink>
+              
+              <li>
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full" to="/">{t("asosiy")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Dunyo">{t("dunyo")}</NavLink>
+              <li>
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Dunyo">{t("dunyo")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Molia">{t("moliya")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Molia">{t("moliya")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Birja">{t("birjalar")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Birja">{t("birjalar")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Madaniyat">{t("madaniyat")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Madaniyat">{t("madaniyat")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Iqtisodiyot">{t("iqtisodiyot")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Iqtisodiyot">{t("iqtisodiyot")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Sport ">{t("sport")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Sport ">{t("sport")}</NavLink>
               </li>
-              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
-                <NavLink className="hover:text-blue-600" to="/Texnologiyalar">{t("tehnalogialar")}</NavLink>
+              <li className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full">
+                <NavLink className="relative after:left-0 after:bottom-0 after:translate-y-full after:absolute after:h-1 after:bg-blue-600 after:w-0 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full"to="/Texnologiyalar">{t("tehnalogialar")}</NavLink>
               </li>
             </ul>
           </div>
         </div>
         <div>
-          <nav className={`lg:hidden lg:items-center mt-5  ${isMenuOpen ? "block absolute bg-slate-400 w-full z-[99] h-screen p-5 left-0 -top-5 bottom-0 " : "hidden"}`}>
+          <nav className={`lg:hidden lg:items-center mt-5  ${isMenuOpen ? "block absolute bg-sky-700 w-full z-[99] h-screen p-5 left-0 -top-5 bottom-0 " : "hidden"}`}>
             <div className={`h-full flex ${isMenuOpen ? "flex-col " : "flex-row lg:hidden"}`}>
-              <ul className={`h-full ${isMenuOpen ? "flex flex-col justify-between items-start" : "flex flex-row space-x-5"}`}>
+             <ul className={`h-full ${isMenuOpen ? "flex flex-col justify-between items-start" : "flex flex-row space-x-5"}`}>
+
+                <li className="pl-8">
+                <NavLink onClick={() => setIsMenuOpen(false)} className='text-blue-800 text-base font-bold p-1 bg-white rounded-md flex justify-center items-center space-x-2 sm:text-2xl ' to="/"><span>NAMANGANLIKLAR</span><span>24</span></NavLink>
+                </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/">
                     {t("asosiy")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Dunyo">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Dunyo">
                     {t("dunyo")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Molia">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Molia">
                     {t("moliya")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Birja">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Birja">
                     {t("birjalar")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Madaniyat">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Madaniyat">
                     {t("madaniyat")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Iqtisodiyot">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Iqtisodiyot">
                     {t("iqtisodiyot")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Sport">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Sport">
                     {t("sport")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Texnologiyalar">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Texnologiyalar">
                     {t("tehnalogialar")}
                   </NavLink>
                 </li>
                 <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-blue-950 hover:text-blue-600  text-lg font-semibold active:text-[#D87D4A] pl-8" to="/Contact">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Contact">
                     {t("contact")}
                   </NavLink>
                 </li>

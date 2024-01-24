@@ -39,7 +39,7 @@ const Kop = () => {
       <div className='w-full max-w-7xl'>
         <div>
           <div className="flex flex-col gap-5">
-            <h3 className="underline-offset-8 underline text-3xl ">{t("kop")}</h3>
+            <h3 className="underline-offset-8 underline text-3xl my-4">{t("kop")}</h3>
             {
               main.slice(10, 20).map((e) => {
                 return (
@@ -48,9 +48,9 @@ const Kop = () => {
                       <Link className="inline-block p-5 sm:p-5 " to={`/post/${e.id}`}>
                         <img className=" max-w-full rounded-md inline-block md:max-w-[350px] sm:max-w-[300px]  " src={e.img} alt="" />
                       </Link>
-                      <div className="flex flex-col p-5">
-                        <Link className="flex-grow block" to={`/post/${e.id}`}>
-                          <p className='text-sm hover:text-blue-900 duration-300 sm:text-lg'>{t(e.title)}</p>
+                      <div className="flex flex-col flex-grow  p-5">
+                        <Link className="block flex-grow" to={`/post/${e.id}`}>
+                          <p className='text-sm hover:text-blue-900 duration-300 sm:text-lg  '>{t(e.title)}</p>
                         </Link>
                         <Link to={`/post/${e.id}`}>
                           <p className='text-sm text-slate-700 lg:text-end  hover:text-blue-900 duration-300 sm:text-lg'>{e.date}</p>
@@ -70,7 +70,7 @@ const Kop = () => {
 
       <div className="lg:block hidden">
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl">{t("ommabop")}</h2>
+          <h2 className="text-2xl  my-4">{t("ommabop")}</h2>
           {
             main.slice(30, 40).map((e) => {
               return (

@@ -48,8 +48,8 @@ const Footer = () => {
       <div className=' w-full max-w-7xl px-5 pb-22 py-5 mx-auto '>
         <div className='border-b lg:flex justify-between  pb-3 '>
 
-          <div className='text-center lg:mb-0 mb-5'>
-            <NavLink className='text-blue-900 text-xl font-bold  p-1 rounded-md bg-white ' to="/">NAMANGANLIKLAR 24</NavLink>
+          <div className=' lg:mb-0 mb-5'>
+            <NavLink className='text-blue-900 text-xl font-bold  p-1 rounded-md bg-white text-start lg:text-start' to="/">NAMANGANLIKLAR 24</NavLink>
           </div>
           <div className=" flex items-start lg:items-center space-x-0 flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5">
             <div className='flex justify-between '>

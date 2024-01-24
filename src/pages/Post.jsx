@@ -43,19 +43,19 @@ const Post = () => {
     <div className="flex gap-5">
 
       <div className="max-w-4xl ">
-        <h2 className="my-3 text-lg lg:text-2xl w-full max-w-2xl lg:max-w-4xl">{t(data.title)}</h2>
-        <p className=" text-lg lg:text-2xl w-full max-w-2xl lg:max-w-4xl">{data.date}</p>
+        <h2 className=" text-lg lg:text-2xl w-full max-w-2xl  md:max-w-4xl">{t(data.title)}</h2>
+        <p className=" text-sm lg:text-lg my-2 w-full max-w-2xl  md:max-w-4xl">{data.date}</p>
         <img className="w-full max-w-2xl rounded-lg my-3 md:max-w-4xl" src={data.img} alt="" />
-        <p className="lg:text-xl text-base font-normal my-3 w-full max-w-2xl lg:max-w-4xl">{t(data.content)}</p>
+        <p className="lg:text-xl text-base font-normal my-3 w-full max-w-2xl  md:max-w-4xl">{t(data.content)}</p>
       </div>
       
       <div className="lg:block hidden">
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl">{t("ommabop")}</h2>
+          <h2 className="text-2xl mb-5">{t("ommabop")}</h2>
           {
             main.slice(30, 40).map((e) => {
               return (
-                <div className='  max-w-2xl bg-slate-200 rounded-md '>
+                <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                   <div className="p-5" >
                     <Link className="inline-block  " to={`/post/${e.id}`}>
                       <img className="  rounded-md inline-block max-w-[250px]" src={e.img} alt="" />
