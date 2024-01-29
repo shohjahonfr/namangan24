@@ -119,51 +119,51 @@ const Header = () => {
             <div className={`h-full flex ${isMenuOpen ? "flex-col " : "flex-row lg:hidden"}`}>
              <ul className={`h-full ${isMenuOpen ? "flex flex-col justify-between items-start" : "flex flex-row space-x-5"}`}>
 
-                <li className="pl-8">
+                <li className="">
                 <NavLink onClick={() => setIsMenuOpen(false)} className='text-blue-800 text-base font-bold p-1 bg-white rounded-md flex justify-center items-center space-x-2 sm:text-2xl ' to="/"><span>NAMANGANLIKLAR</span><span>24</span></NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/">
                     {t("asosiy")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Dunyo">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Dunyo">
                     {t("dunyo")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Molia">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Molia">
                     {t("moliya")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Birja">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Birja">
                     {t("birjalar")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Madaniyat">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Madaniyat">
                     {t("madaniyat")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Iqtisodiyot">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Iqtisodiyot">
                     {t("iqtisodiyot")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Sport">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Sport">
                     {t("sport")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Texnologiyalar">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Texnologiyalar">
                     {t("tehnalogialar")}
                   </NavLink>
                 </li>
-                <li className="my-2 ">
-                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold  pl-8" to="/Contact">
+                <li className="">
+                  <NavLink onClick={() => setIsMenuOpen(false)} className="inline-block text-white text-lg font-semibold " to="/Contact">
                     {t("contact")}
                   </NavLink>
                 </li>

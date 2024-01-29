@@ -113,7 +113,7 @@ const Contact = () => {
           <div className='my-10'>
             <label className='text-xl font-semibold' htmlFor="message">{t("adres")}</label><br />
             <textarea className='w-full border rounded-xl resize-none h-40 py-3
-              px-3' id="message" value={userMessage} onChange={e => setUserMessage(e.target.value)}></textarea>
+              px-3'placeholder="+998" id="message" value={userMessage} onChange={e => setUserMessage(e.target.value)}></textarea>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 my-8'>
             </div>
           </div>
