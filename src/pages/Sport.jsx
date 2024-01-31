@@ -44,7 +44,7 @@ const Sport = () => {
                   <div className='flex bg-slate-200 rounded-md   text-lg  sm:text-sm' key={e.id}>
                     <div className="sm:flex w-full ">
                       <Link className="inline-block p-5 sm:p-5 " to={`/post/${e.id}`}>
-                        <img className=" max-w-full sm:w-72 w-full sm:h-44 h-full rounded-md inline-block md:max-w-[350px] sm:max-w-[300px] " src={e.img} alt="" />
+                        <img className=" max-w-full bg-gray-300 sm:w-72 w-full sm:h-44 h-full rounded-md inline-block md:max-w-[350px] sm:max-w-[300px] " src={e.img} alt="" />
                       </Link>
                       <div className="flex flex-col flex-grow  p-5">
                         <Link className="block flex-grow" to={`/post/${e.id}`}>
@@ -60,7 +60,7 @@ const Sport = () => {
               })
             }
             <div className="items-center mx-auto ">
-            <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
+              <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
             </div>
           </div>
         </div>
@@ -74,15 +74,17 @@ const Sport = () => {
               return (
                 <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                   <div className="p-5" >
-                    <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
-                      <img className=" bg-gray-300 rounded-md inline-block  w-48 h-32" src={e.img} alt="" />
-                    </Link>
-                    <Link className="block " to={`/post/${e.id}`}>
-                      <p className='text-lg text-start hover:text-blue-900'>{t(e.title)}</p>
-                    </Link>
-                    <Link to={`/post/${e.id}`}>
-                      <p className='text-sm text-slate-700 text-end hover:text-blue-900 '>{e.date}</p>
-                    </Link>
+                    <div className="py-2">
+                      <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
+                        <img className=" bg-gray-300 rounded-md inline-block w-48 h-32" src={e.img} alt="" />
+                      </Link>
+                      <Link className="block " to={`/post/${e.id}`}>
+                        <p className='text-lg text-start hover:text-blue-900'>{t(e.title)}</p>
+                      </Link>
+                      <Link to={`/post/${e.id}`}>
+                        <p className='text-sm text-slate-700 text-end hover:text-blue-900 '>{e.date}</p>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               )

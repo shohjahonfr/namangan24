@@ -44,7 +44,7 @@ const Asosiy = () => {
             return (
               <li key={e.id} className='p-4 bg-neutral-200 rounded-xl '>
                 <Link to={`/post/${e.id}`}>
-                  <img className='h-44 w-full bg rounded-md sm:h-64' src={e.img} alt="" />
+                  <img className='h-44 bg-gray-400  w-full bg rounded-md sm:h-64' src={e.img} alt="" />
                 </Link>
                 <Link to={`/post/${e.id}`}>
                   <p className='text-sm my-5 sm:text-lg'>{t(e.title)}</p>
@@ -109,6 +109,7 @@ const Asosiy = () => {
                 return (
                   <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                     <div className="p-5" >
+                      <div className="py-2">
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                         <img className=" bg-gray-300 rounded-md inline-block w-48 h-32" src={e.img} alt="" />
                       </Link>
@@ -118,6 +119,7 @@ const Asosiy = () => {
                       <Link to={`/post/${e.id}`}>
                         <p className='text-sm text-slate-700 text-end hover:text-blue-900 '>{e.date}</p>
                       </Link>
+                      </div>
                     </div>
                   </div>
                 )
