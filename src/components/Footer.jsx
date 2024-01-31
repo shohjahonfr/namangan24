@@ -75,7 +75,7 @@ const Footer = () => {
             <div>
               <span>{t("malumot")}</span>
             </div>
-            <div className=''>
+            <div>
               <h3 className='font-bold'>{t("kuzatuv")}</h3>
               <div className=''>
                 <a href="https://t.me/NAMANGANLIKLAR"target="_blank" className='p-1   inline-block rounded-md'>

@@ -62,9 +62,6 @@ const Kop = () => {
                 )
               })
             }
-            <div className="items-center mx-auto ">
-            <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
-            </div>
           </div>
         </div>
       </div>
