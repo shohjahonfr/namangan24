@@ -60,7 +60,7 @@ const Tehnalogialar = () => {
               })
             }
             <div className="items-center mx-auto ">
-              <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
+            <NavLink className="text-center  bg-blue-600 hover:bg-white border-2 hover:border-black rounded-lg my-2 inline-block p-3 sm:px-32 duration-300 hover:text-green-600 text-white sm:text-center sm:p-3" to="/Kop"> {t("kop")}</NavLink>
             </div>
           </div>
         </div>
@@ -69,14 +69,13 @@ const Tehnalogialar = () => {
       <div className="lg:block hidden">
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl my-4">{t("ommabop")}</h2>
-          {
-            main.slice(30, 40).map((e) => {
-              return (
-                <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
-                  <div className="p-5" >
-                    <div className="py-2">
+            {
+              main.slice(30, 40).map((e) => {
+                return (
+                  <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
+                    <div className="p-5" >
                       <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
-                        <img className=" bg-gray-300 rounded-md inline-block w-48 h-32" src={e.img} alt="" />
+                        <img className=" bg-gray-300 rounded-md inline-block  w-48 h-32" src={e.img} alt="" />
                       </Link>
                       <Link className="block " to={`/post/${e.id}`}>
                         <p className='text-lg text-start hover:text-blue-900'>{t(e.title)}</p>
@@ -86,10 +85,9 @@ const Tehnalogialar = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
         </div>
         <div className=" ">
           <a href="https://domtut.uz/nedvizhimost/zhiloj-kompleks-olmos-residence" target="_blank">

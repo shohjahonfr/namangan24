@@ -109,7 +109,6 @@ const Asosiy = () => {
                 return (
                   <div key={e.id} className='  max-w-2xl bg-slate-200 rounded-md '>
                     <div className="p-5" >
-                      <div className="py-2">
                     <Link className="inline-block mb-2 " to={`/post/${e.id}`}>
                         <img className=" bg-gray-300 rounded-md inline-block w-48 h-32" src={e.img} alt="" />
                       </Link>
@@ -119,7 +118,6 @@ const Asosiy = () => {
                       <Link to={`/post/${e.id}`}>
                         <p className='text-sm text-slate-700 text-end hover:text-blue-900 '>{e.date}</p>
                       </Link>
-                      </div>
                     </div>
                   </div>
                 )
